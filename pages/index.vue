@@ -14,6 +14,9 @@
         <span :class="checked ? 'bg-blue-200' : ''">Enterprise</span>
       </HiRadioGroupOption>
     </HiRadioGroup>
+    <div>
+      <Icon name="uil:github" />
+    </div>
   </div>
 </template>
 
