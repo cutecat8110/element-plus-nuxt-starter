@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@vueuse/nuxt',
     'nuxt-headlessui',
-    'nuxt-icon'
+    'nuxt-icon',
+    '@element-plus/nuxt'
   ],
 
   i18n: {

@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.vue ."
   },
   "devDependencies": {
+    "@element-plus/nuxt": "^1.0.4",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/i18n": "^8.0.0-beta.11",
     "@nuxtjs/tailwindcss": "^6.6.6",
