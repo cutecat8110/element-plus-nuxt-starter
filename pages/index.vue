@@ -18,12 +18,12 @@
       <Icon name="uil:github" />
     </div>
     <el-row class="mb-4">
-      <el-button plain>Plain</el-button>
-      <el-button type="primary" plain>Primary</el-button>
-      <el-button type="success" plain>Success</el-button>
-      <el-button type="info" plain>Info</el-button>
-      <el-button type="warning" plain>Warning</el-button>
-      <el-button type="danger" plain>Danger</el-button>
+      <el-button>平常</el-button>
+      <el-button type="primary">主要</el-button>
+      <el-button type="success">成功</el-button>
+      <el-button type="info">信息</el-button>
+      <el-button type="warning">警告</el-button>
+      <el-button type="danger">危險</el-button>
     </el-row>
   </div>
 </template>

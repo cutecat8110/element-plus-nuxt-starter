@@ -1,0 +1,31 @@
+$-colors: (
+  'black': #c2410c,
+  'primary': (
+    // 'base': #409eff,
+    'base': #0ea5e9 // sky-500
+  ),
+  'success': (
+    // 'base': #67c23a,
+    'base': #10b981 // emerald-500
+  ),
+  'warning': (
+    // 'base': #e6a23c,
+    'base': #f59e0b // amber-500
+  ),
+  'danger': (
+    // 'base': #f56c6c,
+    'base': #f43f5e // rose-500
+  ),
+  'error': (
+    // 'base': #f56c6c,
+    'base': #f43f5e // rose-500
+  ),
+  'info': (
+    // 'base': #909399,
+    'base': #737373 // neutral-500
+  )
+);
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: $-colors
+);

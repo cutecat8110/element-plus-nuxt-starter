@@ -28,5 +28,20 @@ export default defineNuxtConfig({
 
   headlessui: {
     prefix: 'Hi'
+  },
+
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "@/assets/scss/element.scss" as element;`
+        }
+      }
+    }
+  },
+
+  elementPlus: {
+    importStyle: 'scss',
+    themes: ['dark']
   }
 })
