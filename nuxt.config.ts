@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/i18n',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    'nuxt-headlessui'
   ],
 
   i18n: {
@@ -21,5 +22,9 @@ export default defineNuxtConfig({
 
   pinia: {
     autoImports: ['defineStore']
+  },
+
+  headlessui: {
+    prefix: 'Hi'
   }
 })
