@@ -1,6 +1,7 @@
 <template>
   <div>
     {{ store.someState }}
+    {{ $t('hello') }}
   </div>
 </template>
 

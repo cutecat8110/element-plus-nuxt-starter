@@ -1,7 +1,7 @@
 export const useStore = defineStore(
   'main',
   () => {
-    const someState = ref('你好 pinia')
+    const someState = ref('pinia')
     return { someState }
   },
   {
