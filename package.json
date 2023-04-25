@@ -6,10 +6,14 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .js,.vue ."
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config": "^12.0.0",
     "@types/node": "^18",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
     "nuxt": "^3.4.2"
   }
 }
